@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/lastfm/Artist.qml</file>
+        <file>qml/lastfm/Element.qml</file>
+        <file>qml/lastfm/ExtendedOptionsBar.qml</file>
+        <file>qml/lastfm/GlobalCharts.qml</file>
+        <file>qml/lastfm/globals.js</file>
+        <file>qml/lastfm/helper.js</file>
+        <file>qml/lastfm/LastfmView.qml</file>
+        <file>qml/lastfm/MultiButton.qml</file>
+        <file>qml/lastfm/OptionsBar.qml</file>
+        <file>qml/lastfm/PageTitle.qml</file>
+        <file>qml/lastfm/RecentTracks.qml</file>
+        <file>qml/lastfm/VisualCount.qml</file>
+        <file>qml/lastfm/YourCharts.qml</file>
+        <file>qml/lastfm/LineEdit.qml</file>
+        <file>qml/lastfm/LoginPage.qml</file>
+        <file>qml/lastfm/Track.qml</file>
+        <file>qml/lastfm/WhatsNext.qml</file>
+        <file>qml/lastfm/LastfmPage.qml</file>
+        <file>qml/lastfm/login_helpers.js</file>
+    </qresource>
+</RCC>

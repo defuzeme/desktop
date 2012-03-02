@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/images">
+        <file alias="defuze-me-splash">images/defuze-me.jpg</file>
+    </qresource>
+</RCC>

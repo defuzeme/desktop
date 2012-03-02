@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ListsWidget</class>
+ <widget class="QWidget" name="ListsWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>300</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Playlists</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"> QTreeView::branch:!has-children:has-siblings {
+        background-image: url(:/tree/vline);
+        background-repeat: repeat-y;
+        background-position: center center;
+ }
+
+ QTreeView::branch:!has-children:has-siblings:adjoins-item {
+        image: url(:/tree/branch-more);
+ }
+
+ QTreeView::branch:!has-children:!has-siblings:adjoins-item {
+        background-image: url(:/tree/halfvline);
+        background-repeat: repeat-y;
+        background-position: center center;
+        image: url(:/tree/branch-more);
+ }
+
+ QTreeView::branch:closed:has-children {
+		background-image: none;
+        image: url(:/tree/branch-closed);
+ }
+
+ QTreeView::branch:open:has-children {
+		background-image: none;
+          image: url(:/tree/branch-open);
+ }
+
+QTreeView {
+	background-color: rgb(45, 45, 45);
+	border:none;
+	color: rgb(190, 190, 190);
+}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="Lists::ListsTreeView" name="treeView">
+     <property name="editTriggers">
+      <set>QAbstractItemView::AnyKeyPressed|QAbstractItemView::EditKeyPressed</set>
+     </property>
+     <property name="dragEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="dragDropMode">
+      <enum>QAbstractItemView::DragDrop</enum>
+     </property>
+     <property name="verticalScrollMode">
+      <enum>QAbstractItemView::ScrollPerItem</enum>
+     </property>
+     <property name="animated">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>Lists::ListsTreeView</class>
+   <extends>QTreeView</extends>
+   <header>liststreeview.hpp</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,63 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file alias="lock">icons/lock.png</file>
+        <file alias="loader">icons/loader.gif</file>
+        <file>icons/error.png</file>
+        <file alias="device">icons/device.png</file>
+        <file alias="jewelcase">icons/jewelcase.png</file>
+        <file alias="mug">icons/mug.png</file>
+        <file alias="note">icons/note.png</file>
+        <file alias="cross">icons/cross.png</file>
+        <file alias="wrench">icons/wrench.png</file>
+        <file alias="go-jump">icons/go-jump.png</file>
+        <file alias="logo">icons/logo.png</file>
+        <file>icons/arrow-cross.png</file>
+        <file>images/mixer/line-h-bg.png</file>
+        <file>images/mixer/line-v-bg.png</file>
+        <file>images/mixer/slider-h.svg</file>
+        <file>images/mixer/slider-v.svg</file>
+        <file alias="sync">icons/sync.png</file>
+        <file alias="info">icons/info.png</file>
+        <file alias="tick">icons/tick.png</file>
+        <file alias="error">icons/error16.png</file>
+        <file alias="warning">icons/warning.png</file>
+        <file alias="clear">icons/clear.png</file>
+        <file alias="device-small">icons/device-small.png</file>
+        <file>icons/full_screen.png</file>
+        <file>icons/help.png</file>
+        <file alias="calendar">icons/calendar.png</file>
+        <file alias="sound">icons/sound.png</file>
+        <file alias="social">icons/group.png</file>
+        <file alias="delete">icons/cross_old.png</file>
+        <file alias="chart">icons/chart_bar.png</file>
+        <file alias="house">icons/house.png</file>
+        <file alias="star">icons/star.png</file>
+        <file alias="time">icons/time.png</file>
+        <file alias="world">icons/world.png</file>
+        <file alias="find">icons/find.png</file>
+        <file alias="clock">icons/clock.png</file>
+        <file alias="list-add">icons/list-add.png</file>
+        <file alias="static-playlist">icons/media-playlist-repeat.png</file>
+        <file alias="dynamic-playlist">icons/media-playlist-shuffle.png</file>
+        <file alias="wheel">icons/wheel.png</file>
+        <file alias="cd-wheel">icons/cd-wheel.png</file>
+    </qresource>
+    <qresource prefix="/tree">
+        <file alias="branch-closed">icons/tree/stylesheet-branch-closed.png</file>
+        <file alias="branch-more">icons/tree/stylesheet-branch-more.png</file>
+        <file alias="branch-open">icons/tree/stylesheet-branch-open.png</file>
+        <file alias="vline">icons/tree/stylesheet-vline.png</file>
+        <file alias="halfvline">icons/tree/stylesheet-halfvline.png</file>
+    </qresource>
+    <qresource prefix="/jewelcase">
+        <file alias="64">images/jewelcase_64.png</file>
+        <file alias="32">images/jewelcase_32.png</file>
+    </qresource>
+    <qresource prefix="/cover">
+        <file alias="default">images/default_cover.png</file>
+        <file alias="artist">images/artist.png</file>
+    </qresource>
+    <qresource prefix="/scheduler">
+        <file alias="bg-selected">images/bg-event-selected.png</file>
+    </qresource>
+</RCC>
