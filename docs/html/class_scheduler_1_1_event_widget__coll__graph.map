@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_gui_1_1_module_widget.html" title="The widget users will see inside a GridElement." alt="" coords="461,5,601,32"/>
+<area shape="rect" id="node4" href="$class_scheduler_1_1_event_model.html" title="Scheduler::EventModel" alt="" coords="447,56,615,83"/>
+<area shape="rect" id="node6" href="$class_playlists_1_1_playlists_plugin.html" title="Playlists::PlaylistsPlugin" alt="" coords="445,107,616,133"/>
+<area shape="rect" id="node8" href="$class_static_plugin.html" title="StaticPlugin" alt="" coords="283,131,381,157"/>
+<area shape="rect" id="node16" href="$class_scheduler_1_1_scheduler_plugin.html" title="Scheduler::SchedulerPlugin" alt="" coords="433,157,629,184"/>
+<area shape="rect" id="node10" href="$class_plugin.html" title="Abstract class inherited by all PLUGINS." alt="" coords="171,131,231,157"/>
+<area shape="rect" id="node12" href="$class_plugins.html" title="Strucure storing references to all plugins." alt="" coords="5,105,72,132"/>
+<area shape="rect" id="node14" href="$class_cores.html" title="Kind of a strucure containing all CORES." alt="" coords="9,156,68,183"/>
+<area shape="rect" id="node19" href="$class_scheduler_1_1_event_playlist.html" title="Scheduler::EventPlaylist" alt="" coords="443,208,618,235"/>
+</map>

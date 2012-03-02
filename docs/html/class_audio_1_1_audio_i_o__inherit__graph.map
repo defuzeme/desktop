@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_audio_1_1_audio_encoder.html" title="Audio::AudioEncoder" alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node5" href="$class_audio_1_1_audio_mixer.html" title="This class must be instantiated by AudioCore::newAudioMixer(...)" alt="" coords="184,80,320,107"/>
+<area shape="rect" id="node7" href="$class_audio_1_1_audio_output_device.html" title="This class represent an Output device." alt="" coords="344,80,533,107"/>
+<area shape="rect" id="node9" href="$class_player_1_1_audio_player.html" title="Player::AudioPlayer" alt="" coords="557,80,701,107"/>
+</map>

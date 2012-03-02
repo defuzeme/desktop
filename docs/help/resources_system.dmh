@@ -1,0 +1,83 @@
+/**
+\page resources_system The defuze.me resources system
+
+We use the Qt Ressource System. It allows us to compile the external static files that the
+application needs into a binary. The application will use that binary.
+
+The main advantage is, after loading the binary file, we don't have to worry about the OS specific
+file systems.
+
+Look at \subpage using_resources "Using resources" to know how to use resources in the application.
+
+\section resources_system_architecture Architecture
+
+3 kind of files are used:
+- The resources themselves (images, sounds, ...)
+- The Qt Resource Collection (.qrc), defining which resources to use
+- The compiled ressourced collection files (.rcc), loading by this application
+
+The application only needs the .rcc files. It will load/unload them at runtime.
+
+\section add_a_resource Add a resource
+- Add the resource in client/resources/:type/ where type is the ressource kind
+
+Now, you need to now if you want to create a new collection, or add your resource to a existing one.
+
+\subsection add_a_collection Add a new collection
+- In QtCreator, add a new Qt Ressource File to the project
+- Move the created qrc file from client/client/ to client/client/resources/
+- In the client.pro file, remove the new RESOURCES entry
+- Add your .qrc file to the OTHER_FILES entry
+- Finally, add your .qrc file to client/client/resources/Makefile
+
+\subsection add_in_collection Add resource in a collection
+- Open the .qrc file in QtCreator
+- If there are no convenient prefix, add one (like /images or /sounds)
+- Add the file
+- Don't hesitate to use alias!
+
+\subsubsection why_alias Why use an alias ?
+
+If you add the file images/picture.png in the /images prefix, the path to access it will be:
+\verbatim
+:/images/images/picture.png  <- kind of ugly
+\endverbatim
+In QtCreator, you can alias the resource name, replacing 'images/picture.png' by 'picture.png'. The
+result path will be:
+\verbatim
+:/images/picture.png  <- much better!
+\endverbatim
+
+\section resources_system_architecture Update the binaries
+
+Finally, you need to regenerate the .rcc files from the .qrc files.
+
+If make (or mingw32-make) is in your PATH, just run "compile_resources.(bat|sh)" from the helpers
+directory.
+
+Else, you can run the 'move' or 'move_win' (on Windows) target of client/client/resources/Makefile
+from the client/client/resources directory.
+
+**/
+
+/**
+\page using_resources Using resources
+
+It's easy !
+
+To load a collection:
+\verbatim
+QResource::registerResource("resources/your_file.rcc");
+\endverbatim
+
+To unload:
+\verbatim
+QResource::unregisterResource("resources/your_file.rcc");
+\endverbatim
+
+To access a resource:
+\verbatim
+":/prefix/resource_name" <- where you normally use a file name
+\endverbatim
+
+**/

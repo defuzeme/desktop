@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_audio_1_1_audio_core.html" title="The main class handling Audio functions This class inherit QThread to play send the audio to the Audi..." alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node5" href="$class_audio_1_1_audio_output_device_thread.html" title="This clas inherit QThread so it doesn&#39;t interfer with the UI." alt="" coords="161,80,393,107"/>
+</map>

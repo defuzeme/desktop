@@ -1,0 +1,165 @@
+/**
+\page docs_doc Documentation's documentation (!)
+
+Doc's doc is divided in the following sections:
+- \subpage code_documentation "Code documentation how-to"
+- \subpage dm_doc_in_qt_creator "Using this doc in QtCreator"
+- \subpage new_doc_page "Create a new doc page"
+- \subpage doc_generation "Generate the documentation"
+
+**/
+
+//-------------------------------------------------------------
+
+/**
+\page dm_doc_in_qt_creator Using this doc in QtCreator
+
+\remarks If you followed the \ref qt_creator_conf page, it's already done !
+
+Including the defuze.me client documentation into QtCreator? Yes you can!\n
+It allows you to access the documentation directly into the editor.
+
+Let's imagine:\n
+You are in the Starter.hpp file and don't know what is the Cores class?\n
+Just put the cursor on it and press F1, as you do for any Qt class, and the doc for Cores appears!
+
+Isn't it awesome?
+
+\section how_to_use_doc_in_qt_creator How-to
+
+It's quite easy.
+
+- Go in Outils > Options
+- Go in Aide > Documentation
+- Click on Ajouter
+- Select the file client/docs/html/index.qch
+
+**/
+
+/**
+\page doc_generation Generate the documentation
+
+\section required You need
+
+- Doxygen (http://www.stack.nl/~dimitri/doxygen/download.html#latestsrc)
+- GraphViz (http://www.graphviz.org/Download..php)
+
+After installing GraphViz, dot(.exe) should be in the PATH.
+
+\attention On Windows Vista and 7, you have to authorize a total control on dot.exe for you as a simple user.
+
+\section build Build
+
+If doxygen(.exe), dot(.exe) and qhelpgenerator(.exe) are in your PATH:
+- Run the helper "generate_documentation.(bat|sh)" from the helpers directory.
+
+Else:
+- Open the Doxyfile (client/docs/Doxyfile.dox) with Doxywizard
+- Check that Step 1 (working directory) correspond to client/docs
+- Go to the Run tab and click "Run doxygen"
+- Run "qhelpgenerator index.qhp" in client/docs/html (QtCreator has to be closed)
+
+**/
+
+/**
+\page new_doc_page Create a new doc page
+
+\section why Why ?
+You need to document something which does not belong with any source code.
+
+\section how How ?
+Create a new .dmh (Defume.Me Help file) in the client/docs/help directory.
+
+Here's a template:
+\verbatim
+/**
+\page page_name Page title
+
+The contents.
+**/
+\endverbatim
+
+You can create sub-pages:
+
+\verbatim
+/**
+\page parent_page_name Parent page title
+\subpage subpage_1
+\subpage subpage_2
+
+The contents.
+**/
+
+/**
+\page subpage_1 Page title
+
+The contents.
+**/
+
+/**
+\page subpage_2 Page title
+
+The contents.
+**/
+\endverbatim
+
+\section finally Finally
+You need to \ref doc_generation "re-generate the documentation", or let someone else do it!
+
+**/
+
+/**
+\page code_documentation Code documentation how-to
+
+The better way to learn is certainly to:
+- Read the doxygen documentation
+- Look at some examples in the code (the Core or Starter class for example)
+
+\section base_code_doc Here's the base
+
+To document a namespace, class, method, attribut, ... you have to put a doxygen-style comment before
+the element.
+
+\verbatim
+/** This is a brief description ending with a dot.
+  * This is a more detailled description.
+  * This description will automatically be associated to the class below.
+  **/
+
+class MyClass
+{
+	...
+}
+\endverbatim
+
+The first sentence of the description (until the first '.') is the brief description. It's important
+to provide it.\n
+If your description is short, you can use the following syntax:
+
+\verbatim
+	int myMethod(); ///< The brief description.
+\endverbatim
+
+\remarks The private methods/attributs documentation are not use in the doc output.
+\remarks Undocumented entities are not include in the doc output.
+
+You can use a lot of doxygen or html commands to personnalize the output. Here are some commonly
+used:
+
+\verbatim
+Here's a list:
+- Elem 1
+- Elem 2
+  - Sub Elem 1
+
+\n                                      Insert a new line
+\params param_name param description    Describe an parameter
+\return return value description        Describe the return value
+\todo desc                              Add sth to the todo list
+\deprecated desc
+\warning desc
+\attention desc
+\remarks desc
+\endverbatim
+
+**/

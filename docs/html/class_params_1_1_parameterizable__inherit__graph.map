@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_d_b_1_1_d_b_core.html" title="This is the database access wrapper, It manage database and backups locations." alt="" coords="280,5,379,32"/>
+<area shape="rect" id="node5" href="$class_gui_1_1_gui_core.html" title="The main class handling Gui." alt="" coords="278,56,381,83"/>
+<area shape="rect" id="node7" href="$class_library_1_1_library_plugin.html" title="Library::LibraryPlugin" alt="" coords="252,107,407,133"/>
+<area shape="rect" id="node9" href="$class_network_1_1_authenticator.html" title="This class is used by the NetworkCore to handle and maintaing authentication informations for the web..." alt="" coords="245,157,414,184"/>
+<area shape="rect" id="node11" href="$class_network_1_1_doorman.html" title="The doorman filter remote control connections." alt="" coords="258,208,401,235"/>
+<area shape="rect" id="node13" href="$class_params_1_1_params_core.html" title="Register all Parameterizable classes and handle the command line arguments." alt="" coords="250,259,409,285"/>
+<area shape="rect" id="node15" href="$class_web_service_1_1_service_sync.html" title="This plugin handles the realtime synchronization with the webservice (defuze.me) It handles push (htt..." alt="" coords="238,309,421,336"/>
+</map>

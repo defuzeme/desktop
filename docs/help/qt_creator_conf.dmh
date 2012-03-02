@@ -1,0 +1,34 @@
+/**
+\page qt_creator_conf QtCreator Configuration
+
+\section get_qt Getting the Qt SDK
+
+You need
+ - Qt 4.7
+ - QtCreator 2
+
+Download the SDK containing both from http://qt.nokia.com/developer/qt-qtcreator-prerelease#download
+
+\section qtcreator_options QtCreator's options
+
+In Outils > Options
+ - Editeur de texte
+	- Comportement
+	  - Uncheck "Inserer des espaces au lieu de tabulations"
+	  - Set "Taille de tabulation" and "taille de l'indentation" to the same values
+
+ - C++
+   - hpp/cpp
+   - Select the license template (in client/helpers)
+
+ - Designer
+   - Generation de classe
+	 - Heritage multiple
+	 - Check "Prise en charge ..." and "Utilisez le nom ..."
+
+ - Aide
+   - Documentation
+	 - Click on Ajouter
+	 - Select the file client/docs/html/index.qch (see \ref dm_doc_in_qt_creator for more details)
+
+**/

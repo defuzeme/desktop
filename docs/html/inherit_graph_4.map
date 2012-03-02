@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_audio_effect_widget.html" title="AudioEffectWidget" alt="" coords="6,31,143,57"/>
+<area shape="rect" id="node3" href="$class_audio_effect_balance_widget.html" title="AudioEffectBalanceWidget" alt="" coords="193,5,381,32"/>
+<area shape="rect" id="node5" href="$class_audio_effect_volume_widget.html" title="AudioEffectVolumeWidget" alt="" coords="193,56,380,83"/>
+</map>

@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_static_plugin.html" title="StaticPlugin" alt="" coords="115,259,213,285"/>
+<area shape="rect" id="node5" href="$class_lastfm_1_1_lastfm_plugin.html" title="Handle the music discovery and scrobble to Lastfm." alt="" coords="282,5,438,32"/>
+<area shape="rect" id="node7" href="$class_library_1_1_library_plugin.html" title="Library::LibraryPlugin" alt="" coords="283,56,437,83"/>
+<area shape="rect" id="node9" href="$class_lists_1_1_lists_plugin.html" title="Lists::ListsPlugin" alt="" coords="297,107,423,133"/>
+<area shape="rect" id="node11" href="$class_mixer_1_1_audio_mixer_plugin.html" title="Mixer::AudioMixerPlugin" alt="" coords="274,157,446,184"/>
+<area shape="rect" id="node13" href="$class_notification_1_1_status.html" title="This class provide central notification methods." alt="" coords="288,208,432,235"/>
+<area shape="rect" id="node15" href="$class_player_1_1_main_player.html" title="Player::MainPlayer" alt="" coords="291,259,429,285"/>
+<area shape="rect" id="node17" href="$class_playlists_1_1_playlists_plugin.html" title="Playlists::PlaylistsPlugin" alt="" coords="275,309,445,336"/>
+<area shape="rect" id="node19" href="$class_queue_1_1_play_queue.html" title="This is play queue, it stores all the pending tracks ordered and organized." alt="" coords="290,360,430,387"/>
+<area shape="rect" id="node21" href="$class_remote_1_1_remote_control.html" title="This class handle remote control through mobile devices." alt="" coords="272,411,448,437"/>
+<area shape="rect" id="node23" href="$class_scheduler_1_1_scheduler_plugin.html" title="Scheduler::SchedulerPlugin" alt="" coords="262,461,458,488"/>
+<area shape="rect" id="node25" href="$class_web_service_1_1_service_sync.html" title="This plugin handles the realtime synchronization with the webservice (defuze.me) It handles push (htt..." alt="" coords="269,512,451,539"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_gui_1_1_grid_widget.html" title="The only&#45;one&#45;in&#45;a&#45;tab Grid containing the Gui::GridElement." alt="" coords="5,96,125,123"/>
+<area shape="rect" id="node4" href="$class_gui_1_1_tab.html" title="The logical representation of a tab in the Gui::TabWidget." alt="" coords="28,5,103,32"/>
+<area shape="rect" id="node6" href="$class_gui_1_1_module.html" title="The logical element displayed inside a Gui::GridElement." alt="" coords="150,96,247,123"/>
+</map>

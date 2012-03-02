@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$class_queue_1_1_queueable.html" title="This is the queueable element base class." alt="" coords="5,31,147,57"/>
+<area shape="rect" id="node3" href="$class_queue_1_1_queue_break.html" title="This class inherits Queueable an represent a break in the play queue." alt="" coords="195,5,346,32"/>
+<area shape="rect" id="node5" href="$class_queue_1_1_queue_track.html" title="This class inherits Queueable an represent a track in the play queue." alt="" coords="197,56,345,83"/>
+</map>

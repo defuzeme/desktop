@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_params_1_1_parameterizable.html" title="Provide an easy way to handle parameters." alt="" coords="5,173,189,200"/>
+<area shape="rect" id="node4" href="$class_static_plugin.html" title="StaticPlugin" alt="" coords="214,173,311,200"/>
+<area shape="rect" id="node6" href="$class_plugin.html" title="Abstract class inherited by all PLUGINS." alt="" coords="233,96,292,123"/>
+<area shape="rect" id="node8" href="$class_plugins.html" title="Strucure storing references to all plugins." alt="" coords="187,5,253,32"/>
+<area shape="rect" id="node10" href="$class_cores.html" title="Kind of a strucure containing all CORES." alt="" coords="277,5,336,32"/>
+<area shape="rect" id="node12" href="$class_locker.html" title="Locker" alt="" coords="336,173,400,200"/>
+</map>

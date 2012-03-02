@@ -1,0 +1,9 @@
+/**
+\mainpage
+
+\image html defuze-me.png
+
+Check the \ref docs_doc to know how to contribute to this documentation,
+or how to use it \ref dm_doc_in_qt_creator "directly into QtCreator".
+
+**/

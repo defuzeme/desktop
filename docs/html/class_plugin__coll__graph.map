@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_plugins.html" title="Strucure storing references to all plugins." alt="" coords="5,5,72,32"/>
+<area shape="rect" id="node4" href="$class_cores.html" title="Kind of a strucure containing all CORES." alt="" coords="96,5,155,32"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_audio_1_1_audio_core.html" title="The main class handling Audio functions This class inherit QThread to play send the audio to the Audi..." alt="" coords="5,80,136,107"/>
+<area shape="rect" id="node5" href="$class_d_b_1_1_d_b_core.html" title="This is the database access wrapper, It manage database and backups locations." alt="" coords="161,80,260,107"/>
+<area shape="rect" id="node7" href="$class_gui_1_1_gui_core.html" title="The main class handling Gui." alt="" coords="285,80,387,107"/>
+<area shape="rect" id="node9" href="$class_network_1_1_network_core.html" title="This is the network wrapper, It manages every connections and protocols used in the application..." alt="" coords="411,80,575,107"/>
+<area shape="rect" id="node11" href="$class_params_1_1_params_core.html" title="Register all Parameterizable classes and handle the command line arguments." alt="" coords="599,80,757,107"/>
+</map>

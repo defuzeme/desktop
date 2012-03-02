@@ -1,0 +1,12 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_lastfm_1_1_lastfm_widget.html" title="Contains the QML app allowing to discover music using the lastfm api." alt="" coords="215,5,377,32"/>
+<area shape="rect" id="node5" href="$class_library_1_1_library_widget.html" title="Library::LibraryWidget" alt="" coords="217,56,375,83"/>
+<area shape="rect" id="node7" href="$class_lists_1_1_lists_widget.html" title="Lists::ListsWidget" alt="" coords="231,107,361,133"/>
+<area shape="rect" id="node9" href="$class_mixer_1_1_audio_mixer_widget.html" title="Mixer::AudioMixerWidget" alt="" coords="207,157,385,184"/>
+<area shape="rect" id="node11" href="$class_notification_1_1_status_widget.html" title="This class is the UI module displaying global notifications." alt="" coords="203,208,389,235"/>
+<area shape="rect" id="node13" href="$class_player_1_1_main_player_widget.html" title="Player::MainPlayerWidget" alt="" coords="205,259,387,285"/>
+<area shape="rect" id="node15" href="$class_playlists_1_1_playlists_widget.html" title="Playlists::PlaylistsWidget" alt="" coords="209,309,383,336"/>
+<area shape="rect" id="node17" href="$class_queue_1_1_play_queue_widget.html" title="This is the entire playqueue UI module." alt="" coords="205,360,387,387"/>
+<area shape="rect" id="node19" href="$class_scheduler_1_1_event_widget.html" title="Scheduler::EventWidget" alt="" coords="209,411,383,437"/>
+<area shape="rect" id="node21" href="$class_scheduler_1_1_scheduler_widget.html" title="Scheduler::SchedulerWidget" alt="" coords="195,461,397,488"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$class_static_plugin.html" title="StaticPlugin" alt="" coords="45,173,141,200"/>
+<area shape="rect" id="node4" href="$class_plugin.html" title="Abstract class inherited by all PLUGINS." alt="" coords="63,96,123,123"/>
+<area shape="rect" id="node6" href="$class_plugins.html" title="Strucure storing references to all plugins." alt="" coords="17,5,84,32"/>
+<area shape="rect" id="node8" href="$class_cores.html" title="Kind of a strucure containing all CORES." alt="" coords="108,5,167,32"/>
+</map>
