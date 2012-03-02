@@ -1,0 +1,9 @@
+/**************************************************************************
+** defuze.me Epitech Innovative Project
+**
+** Copyright 2010-%YEAR%
+**   Athena Calmettes - Jocelyn De La Rosa - Francois Gaillard
+**   Adrien Jarthon - Alexandre Moore - Luc Peres - Arnaud Sellier
+**
+** All rights reserved.
+**************************************************************************/
