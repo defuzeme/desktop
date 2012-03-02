@@ -1,3 +1,9 @@
 .svn
 *~
-
+installers
+*.pro.user*
+ui_*.h
+*.o
+moc_*.cpp
+client-build-desktop/Makefile
+client-build-desktop/client_*
