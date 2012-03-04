@@ -1,7 +1,9 @@
+![](http://defuze.me/images/logo.png)
+
 defuze.me desktop application for Windows, Mac OS and Linux
 ===========================================================
 
-This is the source code for the [defuze.me](http://defuze.me) desktop application, to be used with the [defuze.me web server](https://github.com/defuzeme/server) and the [defuze.me mobile application](https://github.com/defuzeme).
+This is the source code for the [defuze.me](http://defuze.me) desktop application, to be used with the [defuze.me web server](https://github.com/defuzeme/server) and the [defuze.me mobile application](https://github.com/defuzeme/android).
 
 What is it for?
 ---------------
@@ -29,15 +31,15 @@ You will need
 * Qt 4.7 (for minGW) or later (including the core/gui/sql/network/script/declarative/svg/xml/xmlpatterns modules)
 * QtMobility 1.1 or later
 
-You can build the app using QtCreator or qmake directly. If you use QtCreator, do not forget to run qmake before compiling anyway.
-In both cases, the target directory has to be client/your-build-directory/your-build-config/.
+You can build the app using QtCreator or `qmake` directly. If you use QtCreator, do not forget to run qmake before compiling anyway.
+In both cases, the target directory has to be `client/your-build-directory/your-build-config/`.
 Before to be able to run the app, you may have to copy
 
-* DLLs libraries from client/client-build-desktop/{debug|release}/*.dll into the target directory
+* DLLs libraries from `client/client-build-desktop/{debug|release}/*.dll` into the target directory
 * DLLs for your Qt version into the target directory (furnished DLLs are for Qt 4.8.0)
-* the resources and translations folders (client/client-build-desktop/resources and client/client-build-desktop/translations) into the build directory
+* the resources and translations folders (`client/client-build-desktop/resources` and `client/client-build-desktop/translations`) into the build directory
 
-You can now run client.exe, using client/your-build-directory/ as working directory.
+You can now run `client.exe`, using `client/your-build-directory/` as working directory.
 
 ### Linux
 
