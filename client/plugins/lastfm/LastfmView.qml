@@ -1,5 +1,6 @@
 import QtQuick 1.0
 import "globals.js" as Globals
+import "LastfmAPICredentials.js" as API
 
 Rectangle {
 	id: lastfmView
@@ -7,11 +8,11 @@ Rectangle {
 	height: 400							/// Size will be automatically adjust to the underlying QDeclarativeView
 	color: Globals.background_color
 
+    property string api_key: API.api_key
+    property string secret: API.secret
 	property string user: login_page.login
 	property bool connected: login_page.connected
 	property string session_key: login_page.key
-	property string api_key: "89dd449ff72a59735757e626d3c4b66a"
-	property string secret: "8e2bb5475e973555c32829b589fc0e4f"
 	property string country: "France"
 	property string metro: "Paris"
 	property int pausedTrack: 0

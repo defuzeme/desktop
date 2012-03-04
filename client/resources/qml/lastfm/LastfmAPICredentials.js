@@ -1,0 +1,2 @@
+var api_key = "29310bc713758d9f1e55b51d31164674"
+var secret = "88dd75595fdc3113cf165a2cd6661f34"

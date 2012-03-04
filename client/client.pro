@@ -338,7 +338,8 @@ OTHER_FILES += \
 	plugins/lastfm/LoginPage.qml \
 	plugins/lastfm/LineEdit.qml \
 	plugins/lastfm/login_helpers.js \
-	plugins/lastfm/WhatsNext.qml
+	plugins/lastfm/WhatsNext.qml \
+    plugins/lastfm/LastfmAPICredentials.js
 
 FORMS += \
 	core/network/api/loginview.ui \
