@@ -36,8 +36,8 @@
 #include <QtCore/QStringList>
 #include <QtCore/QTime>
 #include <QtCore/QDebug>
-#include <QtGui/QApplication>
-#include <QtGui/QMessageBox>
+#include <QApplication>
+#include <QMessageBox>
 #include <QDesktopServices>
 
 Starter::Starter()

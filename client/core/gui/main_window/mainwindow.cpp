@@ -33,10 +33,10 @@
 #include "qtwin.h"
 
 #include <QVBoxLayout>
-#include <QtGui/qboxlayout.h>
-#include <QtGui/qslider.h>
-#include <QtGui/qstyle.h>
-#include <QtGui/qtoolbutton.h>
+#include <QBoxLayout>
+#include <QSlider>
+#include <QStyle>
+#include <QToolButton>
 #include <QPushButton>
 #include "audiocore.hpp"
 #include <QDebug>

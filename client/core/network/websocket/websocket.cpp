@@ -29,7 +29,8 @@
 
 #include "websocket.hpp"
 #include "logger.hpp"
-#include <QHttpResponseHeader>
+#warning qt5-incompatibility : QHttpResponseHeader
+//#include <QHttpResponseHeader>
 #include <QCryptographicHash>
 #include <QApplication>
 
@@ -126,30 +127,33 @@ bool	WebSocket::parseHandshake()
 	if (!canReadLine())
 		return false;
 
-	QByteArray	data = readLine();
-	if (data == "\r\n")	// Header end
-	{
-		QHttpResponseHeader	header(QString::fromUtf8(buffer));
-		if (header.statusCode() == 101 &&
-			header.value("Upgrade") == "websocket" &&
-			validToken(header.value("Sec-WebSocket-Accept").toUtf8()))
-		{
-			handshaking = false;
-			Logger::log("WebSocket: connection ok");
-			buffer.clear();
-			emit openSignal();
-		}
-		else
-		{
-			Logger::log(QString("WebSocket: invalid handshake"));
-			emit closeSignal(tr("Invalid handshake"));
-			disconnectFromHost();
-			return false;
-		}
-	}
-	else
-		buffer += data;
-	return true;
+	#warning qt5-incompatibility : QHttpResponseHeader
+	return false;
+
+//	QByteArray	data = readLine();
+//	if (data == "\r\n")	// Header end
+//	{
+//		QHttpResponseHeader	header(QString::fromUtf8(buffer));
+//		if (header.statusCode() == 101 &&
+//			header.value("Upgrade") == "websocket" &&
+//			validToken(header.value("Sec-WebSocket-Accept").toUtf8()))
+//		{
+//			handshaking = false;
+//			Logger::log("WebSocket: connection ok");
+//			buffer.clear();
+//			emit openSignal();
+//		}
+//		else
+//		{
+//			Logger::log(QString("WebSocket: invalid handshake"));
+//			emit closeSignal(tr("Invalid handshake"));
+//			disconnectFromHost();
+//			return false;
+//		}
+//	}
+//	else
+//		buffer += data;
+//	return true;
 }
 
 bool	WebSocket::parseFrame()

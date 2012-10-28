@@ -34,7 +34,7 @@
 #include "mainplayer.hpp"
 #include "library.hpp"
 #include "guicore.hpp"
-#include <QDeclarativeView>
+#include <QQuickView>
 
 namespace Lastfm
 {
@@ -55,7 +55,7 @@ namespace Lastfm
 		void changeEvent(QEvent *e);
 
 	private:
-		QDeclarativeView *declarativeView;
+		QQuickView *declarativeView;
 		Player::MainPlayer *player;
 		Library::LibraryPlugin *library;
 	};

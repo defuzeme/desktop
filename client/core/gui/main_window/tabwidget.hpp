@@ -30,7 +30,7 @@
 #ifndef TABWIDGET_HPP
 #define TABWIDGET_HPP
 
-#include <QtGui/QTabWidget>
+#include <QTabWidget>
 
 namespace Gui
 {

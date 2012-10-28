@@ -119,8 +119,9 @@ void	AudioDecoder::initCodec()
 
 void	AudioDecoder::setFormat()
 {
-	format.setFrequency(aCodecCtx->sample_rate);
-	format.setChannels(aCodecCtx->channels);
+#warning qt5-incompatibility : QAudioFormat
+//	format.setFrequency(aCodecCtx->sample_rate);
+//	format.setChannels(aCodecCtx->channels);
 	format.setSampleSize(16);
 	format.setCodec("audio/pcm");
 	format.setByteOrder(QAudioFormat::LittleEndian);

@@ -30,7 +30,7 @@
 #ifndef MODULEWIDGET_HPP
 #define MODULEWIDGET_HPP
 
-#include <QtGui/QWidget>
+#include <QWidget>
 
 namespace Gui
 {

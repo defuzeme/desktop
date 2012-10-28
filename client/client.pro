@@ -1,4 +1,4 @@
-QT += core gui sql network script declarative svg xml xmlpatterns
+QT += core gui widgets sql network script quick qml multimedia svg xml xmlpatterns concurrent opengl
 
 !win32 {
 	ARCHI = $$system(uname -m)
@@ -19,10 +19,6 @@ else {
 }
 
 TEMPLATE = app
-
-CONFIG += mobility
-
-MOBILITY += multimedia
 
 LIBS +=  -L../client/libraries/ffmpeg/libs -lavformat -lavcodec -lavutil
 

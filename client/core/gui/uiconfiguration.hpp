@@ -30,8 +30,8 @@
 #ifndef UICONFIGURATION_HPP
 #define UICONFIGURATION_HPP
 
-#include <QtGui/QDesktopWidget>
-#include <QtGui/QApplication>
+#include <QDesktopWidget>
+#include <QApplication>
 
 namespace Gui
 {

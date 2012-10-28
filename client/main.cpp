@@ -32,7 +32,7 @@
 #include "audiocore.hpp"
 #include "audiodecoder.hpp"
 #include "defuzemeapplication.hpp"
-#include <QtGui/QApplication>
+#include <QApplication>
 #include <QTranslator>
 
 int main(int argc, char *argv[])

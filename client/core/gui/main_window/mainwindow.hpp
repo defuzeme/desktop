@@ -34,7 +34,7 @@
 #include "tabwidget.hpp"
 #include <QtCore/QList>
 #include <QtCore/QHash>
-#include <QtGui/QMainWindow>
+#include <QMainWindow>
 
 namespace Gui
 {

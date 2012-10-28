@@ -32,6 +32,7 @@
 
 #include <QString>
 #include <QtCore>
+#include <QtConcurrent>
 
 /** This is the default defuze.me exception class.
   * It can be used directly or inherited if you want to change the behaviour.

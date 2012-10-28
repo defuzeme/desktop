@@ -33,6 +33,7 @@
 #include "gridwidget.hpp"
 #include "tab.hpp"
 #include <QMouseEvent>
+#include <QDrag>
 
 using namespace Gui;
 
