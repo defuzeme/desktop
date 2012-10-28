@@ -32,9 +32,9 @@
 #include <QGraphicsObject>
 #include <QDebug>
 #include <QResource>
-#include <QQmlEngine>
+#include <QDeclarativeEngine>
 #include <QDesktopServices>
-#include <QQmlContext>
+#include <QDeclarativeContext>
 
 using namespace Lastfm;
 
@@ -42,10 +42,10 @@ LastfmWidget::LastfmWidget(Player::MainPlayer *player, Library::LibraryPlugin *l
 	ModuleWidget(parent), player(player), library(library)
 {
 	setupUi(this);
-	declarativeView = new QQuickView;
+	declarativeView = new QDeclarativeView;
 	declarativeView->engine()->setOfflineStoragePath(QDesktopServices::storageLocation(QDesktopServices::DataLocation));
 	qDebug() << "Offline storage path: " << declarativeView->engine()->offlineStoragePath();
-	declarativeView->setResizeMode(QQuickView::SizeRootObjectToView);
+	declarativeView->setResizeMode(QDeclarativeView::SizeRootObjectToView);
 	declarativeView->rootContext()->setContextProperty("mainPlayer", player);
 	declarativeView->rootContext()->setContextProperty("library", library);
 //	declarativeView->setSource(QUrl::fromLocalFile("../client/plugins/lastfm/LastfmView.qml"));
@@ -55,7 +55,7 @@ LastfmWidget::LastfmWidget(Player::MainPlayer *player, Library::LibraryPlugin *l
 	QResource::registerResource("/Applications/defuze.me.app/Contents/resources/lastfm.rcc");
 	declarativeView->setSource(QUrl("qrc:/qml/lastfm/LastfmView.qml"));
 #warning qt5-incompatibility : QDeclarativeView
-//	verticalLayout->addWidget(declarativeView);
+	verticalLayout->addWidget(declarativeView);
 }
 
 void LastfmWidget::changeEvent(QEvent *e)

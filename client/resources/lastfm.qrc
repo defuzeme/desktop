@@ -19,5 +19,6 @@
         <file>qml/lastfm/WhatsNext.qml</file>
         <file>qml/lastfm/LastfmPage.qml</file>
         <file>qml/lastfm/login_helpers.js</file>
+        <file>qml/lastfm/LastfmAPICredentials.js</file>
     </qresource>
 </RCC>

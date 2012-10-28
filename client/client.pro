@@ -1,4 +1,4 @@
-QT += core gui widgets sql network script quick qml multimedia svg xml xmlpatterns concurrent opengl
+QT += core gui widgets sql network script multimedia svg xml xmlpatterns concurrent opengl quick1
 
 !win32 {
 	ARCHI = $$system(uname -m)
